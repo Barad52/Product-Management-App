@@ -1,0 +1,234 @@
+ /* ----- Navbar ----- */
+
+ .navbar {
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: 1000;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: #0d0d0d;
+   padding: 20px 40px;
+   border-bottom: 2px solid #1f1f1f;
+   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
+   gap: 50px;
+   font-family: 'Poppins', sans-serif;
+ }
+
+ .navbar a {
+   color: #e0e0e0;
+   text-decoration: none;
+   font-size: 18px;
+   padding: 10px 20px;
+   transition: all 0.3s ease;
+   border-radius: 6px;
+   font-weight: 500;
+   position: relative;
+   overflow: hidden;
+   z-index: 1;
+ }
+
+ .navbar a::before {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: rgba(187, 134, 252, 0);
+   /* transparent by default */
+   transition: background 0.4s ease;
+   z-index: -1;
+ }
+
+ .navbar a:hover::before {
+   background: rgba(187, 134, 252, 0.15);
+   /* soft hover background */
+ }
+
+ .navbar a:hover {
+   color: #bb86fc;
+   text-shadow: 0 0 10px #bb86fc;
+   transform: scale(1.05);
+ }
+
+ .page-container {
+   margin: 200px auto 50px;
+   padding: 40px 30px;
+   background: linear-gradient(135deg, #9db95c, #c779ba);
+   border-radius: 12px;
+   box-shadow: 0 10px 25px rgba(100, 100, 200, 0.15);
+   font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: #2c3e50;
+   text-align: center;
+   transition: transform 0.3s ease;
+ }
+
+ .page-container:hover {
+   box-shadow: 0 15px 30px rgba(100, 100, 200, 0.3);
+ }
+
+ .page-container h1 {
+   font-size: 3rem;
+   margin-bottom: 15px;
+   font-weight: 700;
+   color: #34495e;
+   letter-spacing: 1.5px;
+ }
+
+ .page-container h3 {
+   font-weight: 500;
+   color: #5d6d7e;
+   margin-top: 20px;
+   margin-bottom: 30px;
+   line-height: 1.5;
+ }
+
+ .page-container ul {
+   text-align: left;
+   max-width: 400px;
+   margin: 0 auto 40px auto;
+   padding-left: 20px;
+   color: #34495e;
+   font-size: 1.1rem;
+   list-style-type: square;
+ }
+
+ .page-container ul li {
+   margin-bottom: 12px;
+   transition: color 0.3s ease;
+ }
+
+ .page-container ul li:hover {
+   color: #6c5ce7;
+   cursor: default;
+ }
+
+ /* ----- Products ----- */
+
+ body {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background-color: #f5f5f5;
+   margin: 0;
+   padding: 0;
+ }
+
+ h1 {
+   text-align: center;
+   margin-top: 20px;
+   color: #333;
+ }
+
+ .product-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 20px;
+   padding: 20px;
+   max-width: 1100px;
+   margin: 0 auto;
+ }
+
+ .product-card {
+   flex: 0 0 calc(33.333% - 20px);
+   box-sizing: border-box;
+   background-color: #fff;
+   border-radius: 10px;
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+   padding: 20px;
+   text-align: center;
+   transition: transform 0.3s ease;
+ }
+
+ .product-card:hover {
+   transform: scale(0.97);
+ }
+
+ .product-card img {
+   border-radius: 10px;
+   margin-bottom: 15px;
+   max-width: 100%;
+   height: 200px;
+   object-fit: cover;
+ }
+
+ /* ----- Products Buttons ----- */
+
+ .button-group {
+   margin-top: 15px;
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+ }
+
+ .btn {
+   padding: 8px 12px;
+   border: none;
+   border-radius: 6px;
+   cursor: pointer;
+   font-weight: 600;
+   transition: background-color 0.3s ease;
+   color: white;
+   font-size: 14px;
+ }
+
+ .btn.add {
+   background-color: #28a745;
+ }
+
+ .btn.add:hover {
+   background-color: #218838;
+ }
+
+ .btn.edit {
+   background-color: #ffc107;
+   color: #212529;
+ }
+
+ .btn.edit:hover {
+   background-color: #e0a800;
+   color: white;
+ }
+
+ .btn.delete {
+   background-color: #dc3545;
+ }
+
+ .btn.delete:hover {
+   background-color: #c82333;
+ }
+
+ /* ----- Add Product ----- */
+ .add-product-form {
+  background: #ffffff;
+  padding: 30px;
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.add-product-form input,
+.add-product-form select {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.add-product-form button {
+  padding: 12px;
+  background-color: #28a745;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.add-product-form button:hover {
+  background-color: #218838;
+}

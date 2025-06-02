@@ -1,0 +1,84 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Wireless Headphones",
+      "price": 2999,
+      "description": "Bluetooth over-ear headphones with noise cancellation.",
+      "image": "https://zebronics.com/cdn/shop/files/Zeb-Duke2-blue-pic1_72e88a28-cd23-4974-94ab-06e6b1bac3a2.jpg?v=1742367408&width=1920",
+      "category": "Electronics"
+    },
+    {
+      "id": 4,
+      "name": "Mechanical Keyboard",
+      "price": 3999,
+      "description": "RGB mechanical keyboard with blue switches.",
+      "image": "https://www.pcworld.com/wp-content/uploads/2025/04/DSC00368.jpg?quality=50&strip=all",
+      "category": "Gaming Accessories"
+    },
+    {
+      "id": 6,
+      "name": "iPhone 14",
+      "price": 79999,
+      "description": "Apple iPhone 14 with A15 Bionic chip and 6.1-inch display.",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-14-model-unselect-gallery-1-202209?wid=5120&hei=2880&fmt=jpeg&qlt=80&.v=1661027788464",
+      "category": "Mobile"
+    },
+    {
+      "id": 7,
+      "name": "Samsung Galaxy S23",
+      "price": 74999,
+      "description": "Flagship phone with Snapdragon 8 Gen 2 and Dynamic AMOLED display.",
+      "image": "https://images.samsung.com/in/smartphones/galaxy-s23/images/galaxy-s23-highlights-kv.jpg",
+      "category": "Mobile"
+    },
+    {
+      "id": 8,
+      "name": "OnePlus Nord CE 3",
+      "price": 24999,
+      "description": "Mid-range phone with 120Hz AMOLED display and 5G support.",
+      "image": "https://static1.xdaimages.com/wordpress/wp-content/uploads/wm/2023/04/oneplus-nord-ce-3-lite-review-1.jpg",
+      "category": "Mobile"
+    },
+    {
+      "name": "Google Pixel 9",
+      "price": 74999,
+      "description": "The all-new Google Pixel 9 features a powerful Tensor G4 chip.",
+      "image": "https://cdn.mos.cms.futurecdn.net/Pss7zC2NTf9it64A6rmEs-1200-80.jpg",
+      "category": "Mobile",
+      "id": 9
+    },
+    {
+      "name": "Apple Airpods Pro",
+      "price": "19900",
+      "description": "Apple Airpods Pro with MagSafe Charging Case",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQ7mJP-h-_GTjgzFCb1dVOL5UbHHEPp6QOGgSw1SD4VvqxhraRSxN5SwJD643ErwkXIoxbPM_2X1gskS-QuGlIr3KoBEjc_xmoq5aXgbEQkdTltM35nLGi-pw",
+      "category": "Electronics",
+      "id": 10
+    },
+    {
+      "name": "Electric Lighter",
+      "price": "350",
+      "description": "Storia Usb Finger Touch Cigarette Pocket Lighter Electric Touch Lighter",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRiYlvLScLh9QzkVazW6WM5Edr1p2y-cPUaSIkC9XTb9V0D_O9RvPOCsJlExeqZHLmHmzFjDpB4XW6ea7xUsu8wlwziFRkqO_7HlV_wbiFGperdg9ZSk5yD",
+      "category": "Electronics",
+      "id": 11
+    },
+    {
+      "name": "Gaming Chair",
+      "price": "798754",
+      "description": "Gaming Chair Comfortable Luxury Gaming Chair Ergonomic Computer.",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRGPuQuBEw8599_PqKaURwwGL3nLVqJGQygJ2L2XlAOUgTqTOm6MiUJTVqphbEY51WFVECAB8DMU9s0HnbQtQ4b5M69x-n6JyATEJV08fWj4VKfrhuPLjqL",
+      "category": "Gaming Accessories",
+      "id": 12
+    },
+    {
+      "name": "Trigger",
+      "price": "842",
+      "description": "Kreo Mobile Gaming Trigger",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS_IeXTpTPA9M3vHmV-Rd5q9btKi6M0CyFz04eclcU5TDN58tb_CsrX46tNzco26RPVQOEHfutwVSuUD_wNlKIFsoYbaMKhK_XqK5EiNUkLvZcdc3XQSKAf",
+      "category": "Gaming Accessories",
+      "id": 13
+    }
+  ]
+}
