@@ -15,7 +15,7 @@ function Product() {
 
   useEffect(() => {
     setLoading(true);
-    fetch('https://json-server-backend-ftp2.onrender.com/newproducts')
+    fetch('https://json-server-backend-ftp2.onrender.com/products')
       .then(res => res.json())
       .then(data => { setProducts(data); setLoading(false); })
       .catch(err => { console.log(err); setLoading(false); });
@@ -29,7 +29,7 @@ function Product() {
   }
 
   function handleDelete(productId) {
-    fetch(`https://json-server-backend-ftp2.onrender.com/newproducts/${productId}`, {
+    fetch(`https://json-server-backend-ftp2.onrender.com/products/${productId}`, {
       method: 'DELETE'
     })
       .then(res => {
