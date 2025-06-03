@@ -45,7 +45,7 @@ const AddProduct = () => {
   };
 
   const handleAddProduct = () => {
-    fetch('http://localhost:3000/products', {
+    fetch('https://json-server-backend-ftp2.onrender.com/newproducts', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -81,7 +81,7 @@ const AddProduct = () => {
   };
 
   const handleUpdateProduct = () => {
-    fetch(`http://localhost:3000/products/${updateProduct.id}`, {
+    fetch(`https://json-server-backend-ftp2.onrender.com/newproducts/${updateProduct.id}`, {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({

@@ -15,7 +15,7 @@ function Product() {
 
   useEffect(() => {
     setLoading(true);
-    fetch('http://localhost:3000/products')
+    fetch('https://json-server-backend-ftp2.onrender.com/newproducts')
       .then(res => res.json())
       .then(data => { setProducts(data); setLoading(false); })
       .catch(err => { console.log(err); setLoading(false); });
@@ -29,7 +29,7 @@ function Product() {
   }
 
   function handleDelete(productId) {
-    fetch(`http://localhost:3000/products/${productId}`, {
+    fetch(`https://json-server-backend-ftp2.onrender.com/newproducts/${productId}`, {
       method: 'DELETE'
     })
       .then(res => {
