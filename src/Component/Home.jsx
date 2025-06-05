@@ -131,6 +131,17 @@ const Home = () => {
             @_.piyush.006
           </a>
         </div>
+        <div>
+          Let's connect on LinkedIn:{' '}
+          <a
+            href="https://www.linkedin.com/in/piyush-barad"
+            style={footerLinkStyle}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            piyush-barad
+          </a>
+        </div>
       </footer>
     </div>
   );
